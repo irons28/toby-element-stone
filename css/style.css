@@ -1,0 +1,63 @@
+:root {
+  --primary: #80CFFF;     /* Sky blue */
+  --secondary: #7D0038;   /* Claret */
+  --background: #FFF9F5;  /* Soft paper background */
+  --text: #2C2C2C;        /* Story text */
+  --accent: #F4D03F;      /* Optional highlight */
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+}
+
+header {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.story-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.story-image {
+  max-width: 100%;
+  display: block;
+  margin: 1.5rem auto;
+  border: 4px solid var(--secondary);
+  border-radius: 8px;
+}
+
+.about-author {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--secondary);
+  color: white;
+}
